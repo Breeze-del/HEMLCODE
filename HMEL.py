@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2020/9/18 12:08
-# @Author  : Hui Wang
-# @Email   : hui.wang@ruc.edu.cn
+
 
 import enum
 import math
