@@ -10,7 +10,9 @@ The code is built on Pytorch and the [RecBole](https://github.com/RUCAIBox/RecBo
 ## Datasets
 ##### Download the three public datasets we use in the paper at:
 Tmall : https://tianchi.aliyun.com/dataset/140281
+
 IJCAI : https://tianchi.aliyun.com/dataset/42
+
 UserB : https://tianchi.aliyun.com/dataset/649
 
 ##### Unzip the datasets and move them to *./dataset/*
