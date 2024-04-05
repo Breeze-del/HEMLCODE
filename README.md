@@ -19,7 +19,7 @@ UserB:https://tianchi.aliyun.com/dataset/649
 
 ##### Unzip the datasets and move them to *./dataset/*
 
-## Run MBHT
+## Run HEML
 
 `python run_HEML.py --model=[HEML] --dataset=[tmall_beh] --gpu_id=[0] --batch_size=[2048]`, where [value] means the default value.
 
