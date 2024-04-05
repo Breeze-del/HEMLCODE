@@ -16,10 +16,10 @@ def sim(z1: torch.Tensor, z2: torch.Tensor):
     z2 = F.normalize(z2)
     return torch.matmul(z1, z2.permute(0,2,1))
 
-class MBHT(SequentialRecommender):
+class HEML(SequentialRecommender):
 
     def __init__(self, config, dataset):
-        super(MBHT, self).__init__(config, dataset)
+        super(HEML, self).__init__(config, dataset)
 
         # load parameters info
         self.n_layers = config['n_layers']
