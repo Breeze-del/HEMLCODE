@@ -4,7 +4,6 @@ import os
 from recbole.config import Config
 from recbole.data import create_dataset
 from recbole.data.utils import get_dataloader, create_samplers
-from recbole.model.sequential_recommender.mbht import MBHT
 from recbole.utils import init_logger, init_seed, get_model, get_trainer, set_color
 
 
@@ -57,7 +56,7 @@ if __name__ == '__main__':
     if args.dataset == "tmall_beh":
         config_dict['scales'] = [5, 8, 40]
         
-    config = Config(model="MBHT", dataset=f'{args.dataset}', config_dict=config_dict)
+    config = Config(model="HEML", dataset=f'{args.dataset}', config_dict=config_dict)
     # config['device']="cpu"
     init_seed(config['seed'], config['reproducibility'])
 
