@@ -19,7 +19,7 @@ UserB : https://tianchi.aliyun.com/dataset/649
 
 ## Run HEML
 
-`python run_MBHT.py --model=[HEML] --dataset=[tmall_beh] --gpu_id=[0] --batch_size=[2048]`, where [value] means the default value.
+`python run_HEML.py --model=[HEML] --dataset=[tmall_beh] --gpu_id=[0] --batch_size=[2048]`, where [value] means the default value.
 
 ## Tips
 - Note that we modified the evaluation sampling setting in `recbole/sampler/sampler.py` to make it static.
